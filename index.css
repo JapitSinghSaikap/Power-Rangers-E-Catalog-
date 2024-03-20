@@ -1,0 +1,119 @@
+.header-section{
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
+  gap: 20px;
+}
+.text-body-emphasis{
+font-family: "Montserrat Alternates", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+
+.headerFlip{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 200%;
+  width: 10%;
+}
+
+.right-section{
+  display: inline-flex;
+  --bs-text-opacity: 1;
+  color: var(--bs-secondary-color) !important;
+}   
+
+
+.left-section{
+  margin:0px 50px 0px 50px;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.info-section{
+  margin-top: 65px;
+  margin-left: 80px;
+}
+
+.btn-logo {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.btn-logo:hover {
+  text-decoration: underline;
+}
+
+.top{
+  height:100px;
+  width:100px;
+}
+
+span{
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.button {
+  background-color: #0362FC;
+  color: white;
+  border: none;
+  border-radius: 5px;
+ 
+  padding: 15px 32px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  width: 300px;
+}
+.button:hover {
+  background-color: #a1a4a1;
+  color: white;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+}
+.button:active {
+  background-color: #a1a4a1;
+  color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+.button:focus {
+  background-color: #a1a1a1;
+  color: white;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+.video-container {
+position: relative;
+left: 600px;
+}
+.video-container video{
+width:50%;
+height:auto;
+}
+
+.popup{
+position: absolute;
+top: 200px;
+left: 200px;
+}
+.Signin{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap:11px;
+}
+.inner-element{
+  display: inline-flex;
+  --bs-text-opacity: 1;
+  color: var(--bs-secondary-color) !important;
+}
