@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>File Uploader</title>
+  <link rel="stylesheet" href="manufacturer.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="navbar-text">
+      <div class="navbar-text1">Home</div>
+      <div class="navbar-text1">Resources</div>
+      <div class="navbar-text1">About</div>
+    </div>
+  </div>
+    <div class="hero">
+        <label for="input-file" id="drop-area">
+          <input type="file" accep="image/*" id="input-file" hidden>
+          <div id="img-view">
+            <img src="./pictures/WhatsApp Image 2024-03-19 at 8.43.56 PM.jpeg" alt="">
+            <p>Drag and drop or click to<br>upload image</p>
+            <span>Upload any images from desktop</span>
+
+          </div>
+        </label>
+        <div><button class="upload" onclick="uploadFile()" >Upload</button></div>
+    </div>
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
