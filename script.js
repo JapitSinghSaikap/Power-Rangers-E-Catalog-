@@ -14,7 +14,6 @@ function uploadFile() {
     })
       .then((response) => {
         if (!response.ok) {
-          // If server response is not OK, throw an error
           throw new Error("Network response was not ok");
         }
         return response.json(); // Parse JSON response
