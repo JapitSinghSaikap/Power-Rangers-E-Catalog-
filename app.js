@@ -19,14 +19,12 @@ const credentials = {
   refresh_token: 'REFRESH_TOKEN',
   scope: 'https://www.googleapis.com/auth/drive',
   token_type: 'Bearer',
-  expiry_date: 123456789, // Replace with actual expiry date
+  expiry_date: 123456789, 
 };
 oauth2Client.setCredentials(credentials);
 
-// Set up multer for file uploads
 const upload = multer({ dest: 'uploads/' });
 
-// Upload route
 app.post('/upload', upload.single('file'), async (req, res) => {
   try {
     const fileMetadata = {
